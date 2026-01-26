@@ -25,8 +25,8 @@
 ### Repositories
 | Repository | Description |
 |:---:|:---|
-| [Backend](../backend) | Django 기반 API 서버 |
-| [Frontend](../frontend) | 프론트엔드 애플리케이션 |
+| [Backend](https://github.com/2025-Techeer-Winter-Bootcamp-Team-D/backend.git) | Django 기반 API 서버 |
+| [Frontend](https://github.com/2025-Techeer-Winter-Bootcamp-Team-D/frontend.git) | 프론트엔드 애플리케이션 |
 <br>
 
 # 🎬 Demo
@@ -147,74 +147,165 @@
 <h3 align="left">Prometheus & Grafana</h3>
 <table>
     <tr>
-        <th colspan="2">Django Metrics</th>
+        <th colspan="2">Django Prometheus</th>
     </tr>
     <tr>
-        <td><img src="Grafana_이미지_URL_1" alt="Django Metrics"></td>
-        <td><img src="Grafana_이미지_URL_2" alt="Django Metrics 2"></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
-        <th colspan="2">cAdvisor</th>
+        <th colspan="2">Docker System</th>
     </tr>
     <tr>
-        <td><img src="cAdvisor_이미지_URL_1" alt="cAdvisor"></td>
-        <td><img src="cAdvisor_이미지_URL_2" alt="cAdvisor 2"></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">Node Exporter</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">PostgreSQL</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th colspan="2">Redis</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
     </tr>
 </table>
 <br><br>
 
 # 🚀 How to Start
-#### 1. Clone The Repository
+
+### Prerequisites
+- Docker & Docker Compose
+- Node.js 18+ & Yarn
+- Git
+
+### 1. Clone The Repository
 ```bash
 git clone https://github.com/2025-Techeer-Winter-Bootcamp-Team-D/backend.git
 git clone https://github.com/2025-Techeer-Winter-Bootcamp-Team-D/frontend.git
 ```
 
-#### 2. Backend ENV Setting
-```bash
-# Backend/.env
-SECRET_KEY=
-DEBUG=
+### 2. Backend Setup
 
-# Database
-DATABASE_HOST=
-DATABASE_NAME=
-DATABASE_USER=
-DATABASE_PASSWORD=
+#### 2-1. Create `.env` file in Backend directory
+```bash
+cd backend
+touch .env
+```
+
+#### 2-2. Configure Environment Variables
+```bash
+# Django
+DJANGO_SECRET_KEY=your-secret-key
+ALLOWED_HOSTS=localhost,127.0.0.1
+
+# Database (TimescaleDB)
+POSTGRES_DB=postgres
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=your-db-password
+POSTGRES_HOST=db
 
 # Redis
-REDIS_URL=
+REDIS_HOST=redis
+REDIS_URL=redis://redis:6379/0
 
 # Celery
-CELERY_BROKER_URL=
+CELERY_BROKER_URL=amqp://guest:guest@rabbitmq:5672/
+CELERY_RESULT_BACKEND=redis://redis:6379/0
 
-# External APIs
-KIS_APP_KEY=
-KIS_APP_SECRET=
-DART_API_KEY=
-NAVER_CLIENT_ID=
-NAVER_CLIENT_SECRET=
-GEMINI_API_KEY=
+# OpenSearch
+OPENSEARCH_SECURITY_DISABLED=true
+OPENSEARCH_INITIAL_ADMIN_PASSWORD=admin123!@#
+
+# External APIs (Optional - 실제 데이터 사용 시 필요)
+KIS_APP_KEY=your-kis-app-key
+KIS_APP_SECRET=your-kis-app-secret
+DART_API_KEY=your-dart-api-key
+NAVER_CLIENT_ID=your-naver-client-id
+NAVER_CLIENT_SECRET=your-naver-client-secret
+GEMINI_API_KEY=your-gemini-api-key
+
+# Batch Jobs (기본값: 비활성화)
+NEWS_BATCH_ENABLED=false
+DART_SYNC_ENABLED=false
+REPORT_PROCESSING_ENABLED=false
 ```
 
-#### 3. Run Docker
+#### 2-3. Run Docker Containers
 ```bash
-docker-compose up --build
+docker-compose up --build -d
 ```
 
-#### 4. Frontend Install & Run
+#### 2-4. Verify Services
 ```bash
+# 컨테이너 상태 확인
+docker-compose ps
+
+# 로그 확인
+docker-compose logs -f app
+```
+
+### 3. Frontend Setup
+
+#### 3-1. Install Dependencies
+```bash
+cd frontend
 yarn install
-yarn run dev
+```
+
+#### 3-2. Configure Environment Variables
+```bash
+# frontend/.env.development
+VITE_API_BASE_URL=http://localhost:8000
+VITE_MSW_ENABLED=false
+VITE_WS_URL=ws://localhost:8000/ws/stock/
+```
+
+#### 3-3. Run Development Server
+```bash
+yarn dev
+```
+
+### 4. Access URLs
+| Service | URL | Description |
+|:---:|:---:|:---|
+| Frontend | http://localhost:5173 | 프론트엔드 애플리케이션 |
+| Backend API | http://localhost:8000 | Django REST API |
+| Swagger | http://localhost:8000/swagger | API 문서 |
+| Grafana | http://localhost:3000 | 모니터링 대시보드 (admin/admin) |
+| Flower | http://localhost:5555 | Celery 모니터링 |
+| RabbitMQ | http://localhost:15672 | 메시지 브로커 관리 (guest/guest) |
+| Prometheus | http://localhost:9090 | 메트릭 수집 |
+
+### 5. Stop Services
+```bash
+# Backend
+cd backend
+docker-compose down
+
+# 데이터 볼륨까지 삭제
+docker-compose down -v
 ```
 <br>
 
 # 👥 Member
-| Name | 이름1 | 이름2 | 이름3 | 이름4 |
-|:---:|:---:|:---:|:---:|:---:|
-| Profile | <img width="100px" height="110px" src="프로필_이미지_URL_1" /> | <img width="100px" height="110px" src="프로필_이미지_URL_2" /> | <img width="100px" height="110px" src="프로필_이미지_URL_3" /> | <img width="100px" height="110px" src="프로필_이미지_URL_4" /> |
-| Role | Team Leader, Backend | Backend | Frontend | Frontend |
-| GitHub | <a href="https://github.com/"><img src="http://img.shields.io/badge/username1-green?style=social&logo=github"/></a> | <a href="https://github.com/"><img src="http://img.shields.io/badge/username2-green?style=social&logo=github"/></a> | <a href="https://github.com/"><img src="http://img.shields.io/badge/username3-green?style=social&logo=github"/></a> | <a href="https://github.com/"><img src="http://img.shields.io/badge/username4-green?style=social&logo=github"/></a> |
+| Name | 제승현 | 강민서 | 조장혁 | 차윤서 | 안근영 |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| Profile | <img width="100px" height="110px" src="프로필_이미지_URL_1" /> | <img width="100px" height="110px" src="프로필_이미지_URL_2" /> | <img width="100px" height="110px" src="프로필_이미지_URL_3" /> | <img width="100px" height="110px" src="프로필_이미지_URL_4" /> | <img width="100px" height="110px" src="프로필_이미지_URL_5" /> |
+| Role | Team Leader, Backend | Backend | Backend | Frontend | Frontend |
+| GitHub | <a href="https://github.com/lazyjsh03"><img src="http://img.shields.io/badge/username1-green?style=social&logo=github"/></a> | <a href="https://github.com/kmssss56"><img src="http://img.shields.io/badge/username2-green?style=social&logo=github"/></a> | <a href="https://github.com/jang1224"><img src="http://img.shields.io/badge/username3-green?style=social&logo=github"/></a> | <a href="https://github.com/cha112-31"><img src="http://img.shields.io/badge/username4-green?style=social&logo=github"/></a> | <a href="https://github.com/ssambbaam"><img src="http://img.shields.io/badge/username5-green?style=social&logo=github"/></a> |
 
 ---
 
