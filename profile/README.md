@@ -1,6 +1,3 @@
-
-![온보딩 애니메이션](https://github.com/user-attachments/assets/a9efd9b1-c7f7-4569-965b-48d68e544c4c)
-
 # 📚 Contents List
 - [Introduction](#-introduction)
 - [Demo](#-demo)
