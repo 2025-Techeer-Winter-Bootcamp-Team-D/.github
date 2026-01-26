@@ -1,4 +1,5 @@
-https://github.com/user-attachments/assets/7b6e23e9-878e-419e-87cb-8388bbf3426b
+
+![온보딩 애니메이션](https://github.com/user-attachments/assets/a9efd9b1-c7f7-4569-965b-48d68e544c4c)
 
 # 📚 Contents List
 - [Introduction](#-introduction)
