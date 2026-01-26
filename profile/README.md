@@ -134,8 +134,12 @@
 <br>
 
 # 📗 API
-<img width="1330" alt="Swagger" src="API문서_이미지_URL_1" />
-<img width="1330" alt="Swagger" src="API문서_이미지_URL_2" />
+<img width="1580" height="1229" alt="image" src="https://github.com/user-attachments/assets/2677f0f1-9b7d-47f2-9737-6b8387468e92" />
+<img width="1534" height="752" alt="image" src="https://github.com/user-attachments/assets/f69a140f-04d9-4d38-8ba1-f20cd360f7f3" />
+<img width="1510" height="627" alt="image" src="https://github.com/user-attachments/assets/3f8f3611-ddda-4115-abfa-78ba7adbbb1d" />
+<img width="1518" height="551" alt="image" src="https://github.com/user-attachments/assets/db5f4d1d-4f32-4842-bb25-f0c93e35f257" />
+
+
 <br><br>
 
 # 📊 Monitoring
