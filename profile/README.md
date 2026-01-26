@@ -191,6 +191,19 @@
 </table>
 <br><br>
 
+# 🗓️ Logging
+<h3 align="left">Loki & Promtail</h3>
+<table>
+  <tr>
+    <th colspan="2">Loki</th>
+  </tr>
+  <tr>
+    <td>
+      <img width="1988" height="1118" alt="image" src="https://github.com/user-attachments/assets/529e0a48-0beb-411f-a985-ac9035a09b35" />
+    </td>
+  </tr>
+</table>
+
 # 🚀 How to Start
 
 ### Prerequisites
