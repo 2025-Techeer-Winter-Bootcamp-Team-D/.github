@@ -1,8 +1,4 @@
-<p align="center">
-  <a href="https://github.com/your_repo">
-    https://github.com/user-attachments/assets/7b6e23e9-878e-419e-87cb-8388bbf3426b
-  </a>
-</p>
+https://github.com/user-attachments/assets/7b6e23e9-878e-419e-87cb-8388bbf3426b
 
 # 📚 Contents List
 - [Introduction](#-introduction)
