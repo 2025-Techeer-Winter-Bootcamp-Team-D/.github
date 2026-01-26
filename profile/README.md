@@ -305,7 +305,7 @@ docker-compose down -v
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | Profile | <img width="100px" height="110px" src="프로필_이미지_URL_1" /> | <img width="100px" height="110px" src="프로필_이미지_URL_2" /> | <img width="100px" height="110px" src="프로필_이미지_URL_3" /> | <img width="100px" height="110px" src="프로필_이미지_URL_4" /> | <img width="100px" height="110px" src="프로필_이미지_URL_5" /> |
 | Role | Team Leader, Backend | Backend | Backend | Frontend | Frontend |
-| GitHub | <a href="https://github.com/lazyjsh03"><img src="http://img.shields.io/badge/username1-green?style=social&logo=github"/></a> | <a href="https://github.com/kmssss56"><img src="http://img.shields.io/badge/username2-green?style=social&logo=github"/></a> | <a href="https://github.com/jang1224"><img src="http://img.shields.io/badge/username3-green?style=social&logo=github"/></a> | <a href="https://github.com/cha112-31"><img src="http://img.shields.io/badge/username4-green?style=social&logo=github"/></a> | <a href="https://github.com/ssambbaam"><img src="http://img.shields.io/badge/username5-green?style=social&logo=github"/></a> |
+| GitHub | <a href="https://github.com/lazyjsh03"><img src="http://img.shields.io/badge/lazyjsh03-green?style=social&logo=github"/></a> | <a href="https://github.com/kmssss56"><img src="http://img.shields.io/badge/kmssss56-green?style=social&logo=github"/></a> | <a href="https://github.com/jang1224"><img src="http://img.shields.io/badge/jang1224-green?style=social&logo=github"/></a> | <a href="https://github.com/cha112-31"><img src="http://img.shields.io/badge/cha112-31-green?style=social&logo=github"/></a> | <a href="https://github.com/ssambbaam"><img src="http://img.shields.io/badge/ssambbaam-green?style=social&logo=github"/></a> |
 
 ---
 
