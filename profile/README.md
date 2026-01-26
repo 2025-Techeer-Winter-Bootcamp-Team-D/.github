@@ -53,6 +53,8 @@
 <br><br>
 
 # 🔑 ERD
+<img width="1570" height="1015" alt="image" src="https://github.com/user-attachments/assets/f8a241cf-9c26-486f-85da-c1b637224489" />
+<img width="511" height="767" alt="image" src="https://github.com/user-attachments/assets/12dc9329-2545-42d0-a29c-e2987023ff7d" />
 
 <br><br>
 
@@ -150,31 +152,41 @@
         <th colspan="2">Django Prometheus</th>
     </tr>
     <tr>
-        <td></td>
+        <td>
+          <img width="1986" height="961" alt="image" src="https://github.com/user-attachments/assets/6167a468-8992-467d-a666-88c7f4cc8ea0" />
+        </td>
     </tr>
     <tr>
         <th colspan="2">Docker System</th>
     </tr>
     <tr>
-        <td></td>
+        <td>
+          <img width="1987" height="1138" alt="image" src="https://github.com/user-attachments/assets/26ee6a5d-3c47-4bc7-b461-849268075f9f" />
+        </td>
     </tr>
     <tr>
         <th colspan="2">Node Exporter</th>
     </tr>
     <tr>
-        <td></td>
+        <td>
+          <img width="1990" height="770" alt="image" src="https://github.com/user-attachments/assets/bbe1f4cb-76ee-4f3a-a99e-fc544bd55999" />
+        </td>
     </tr>
     <tr>
         <th colspan="2">PostgreSQL</th>
     </tr>
     <tr>
-        <td></td>
+        <td>
+          <img width="1993" height="1104" alt="image" src="https://github.com/user-attachments/assets/43e3f4cd-48fa-44ff-beb9-a0655c38ab26" />
+        </td>
     </tr>
     <tr>
         <th colspan="2">Redis</th>
     </tr>
     <tr>
-        <td></td>
+        <td>
+          <img width="1988" height="1066" alt="image" src="https://github.com/user-attachments/assets/a9024d08-c14f-4a6f-a7e5-ff0743cf4c93" />
+        </td>
     </tr>
 </table>
 <br><br>
