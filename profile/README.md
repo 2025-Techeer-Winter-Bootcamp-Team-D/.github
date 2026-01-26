@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# 🔮 Table of Contents
+# 📚 Contents List
 - [Introduction](#-introduction)
 - [Demo](#-demo)
 - [System Architecture](#-system-architecture)
@@ -31,19 +31,19 @@
 
 # 🎬 Demo
 ### 메인페이지
-<img align="center" width="1000" alt="Main" src="메인페이지_이미지_URL">
+
 <br><br>
 
 ### 기업 검색 & 기업 상세 페이지
-<img align="center" width="1000" alt="Stock" src="주가조회_이미지_URL">
+
 <br><br>
 
 ### 산업 페이지
-<img align="center" width="1000" alt="News" src="뉴스분석_이미지_URL">
+
 <br><br>
 
 ### 기업 비교 페이지
-<img align="center" width="1000" alt="Disclosure" src="공시정보_이미지_URL">
+
 <br><br>
 
 # 🛠️ System Architecture
@@ -53,7 +53,7 @@
 <br><br>
 
 # 🔑 ERD
-<img width="1657" alt="ERD" src="https://github.com/user-attachments/assets/fc6fce42-a753-448c-8dfd-10c7fee212fa" />
+
 <br><br>
 
 # 💻 Tech Stack
@@ -151,13 +151,11 @@
     </tr>
     <tr>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <th colspan="2">Docker System</th>
     </tr>
     <tr>
-        <td></td>
         <td></td>
     </tr>
     <tr>
@@ -165,20 +163,17 @@
     </tr>
     <tr>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <th colspan="2">PostgreSQL</th>
     </tr>
     <tr>
         <td></td>
-        <td></td>
     </tr>
     <tr>
         <th colspan="2">Redis</th>
     </tr>
     <tr>
-        <td></td>
         <td></td>
     </tr>
 </table>
