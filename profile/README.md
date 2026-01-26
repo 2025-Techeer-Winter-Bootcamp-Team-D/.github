@@ -34,15 +34,15 @@
 <img align="center" width="1000" alt="Main" src="메인페이지_이미지_URL">
 <br><br>
 
-### 실시간 주가 조회
+### 기업 검색 & 기업 상세 페이지
 <img align="center" width="1000" alt="Stock" src="주가조회_이미지_URL">
 <br><br>
 
-### AI 뉴스 분석
+### 산업 페이지
 <img align="center" width="1000" alt="News" src="뉴스분석_이미지_URL">
 <br><br>
 
-### 기업 공시 정보
+### 기업 비교 페이지
 <img align="center" width="1000" alt="Disclosure" src="공시정보_이미지_URL">
 <br><br>
 
