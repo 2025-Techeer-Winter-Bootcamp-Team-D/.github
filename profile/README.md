@@ -47,8 +47,9 @@
 <br><br>
 
 # 🛠️ System Architecture
-<img width="1405" alt="System Architecture" src="https://github.com/user-attachments/assets/4db2dd25-43b0-47e8-8e35-865de939a8a0" />
-<img width="1385" alt="Data Pipeline" src="https://github.com/user-attachments/assets/2eae30f5-31ed-48f2-bc24-80ed80fdc9c2" />
+<img width="1647" height="1009" alt="image" src="https://github.com/user-attachments/assets/e3c6016f-679f-41ad-b59b-53cf92e3c05b" />
+<img width="1664" height="911" alt="image" src="https://github.com/user-attachments/assets/da16a48d-5516-4502-802b-edc6506c91b4" />
+
 <br><br>
 
 # 🔑 ERD
