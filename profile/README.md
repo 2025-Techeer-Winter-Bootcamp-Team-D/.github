@@ -324,12 +324,7 @@ docker-compose down -v
 # 👥 Member
 | Name | 제승현 | 강민서 | 조장혁 | 차윤서 | 안근영 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| Profile | <img width="1056" height="1434" alt="image" src="https://github.com/user-attachments/assets/d0cc93b5-9067-4bba-ba92-9521c8ea3787" />
- | <img width="413" height="531" alt="image" src="https://github.com/user-attachments/assets/f5dbbebc-3a22-471a-966d-e77bec0b4499" />
- | <img width="413" height="531" alt="image" src="https://github.com/user-attachments/assets/abf3d84c-19e2-4b76-9b95-610285813ac4" />
- | <img width="808" height="934" alt="image" src="https://github.com/user-attachments/assets/6b5b6c7e-19fc-4d09-8d50-cbb4ab9ba352" />
- | <img width="1165" height="1440" alt="image" src="https://github.com/user-attachments/assets/987be078-0d91-4171-a622-25f115cd2e16" />
- |
+| Profile | <img width="1056" height="1434" alt="image" src="https://github.com/user-attachments/assets/d0cc93b5-9067-4bba-ba92-9521c8ea3787" /> | <img width="413" height="531" alt="image" src="https://github.com/user-attachments/assets/f5dbbebc-3a22-471a-966d-e77bec0b4499" /> | <img width="413" height="531" alt="image" src="https://github.com/user-attachments/assets/abf3d84c-19e2-4b76-9b95-610285813ac4" /> | <img width="808" height="934" alt="image" src="https://github.com/user-attachments/assets/6b5b6c7e-19fc-4d09-8d50-cbb4ab9ba352" /> | <img width="1165" height="1440" alt="image" src="https://github.com/user-attachments/assets/987be078-0d91-4171-a622-25f115cd2e16" /> |
 | Role | Team Leader, Backend | Backend | Backend | Frontend | Frontend |
 | GitHub | <a href="https://github.com/lazyjsh03"><img src="http://img.shields.io/badge/lazyjsh03-green?style=social&logo=github"/></a> | <a href="https://github.com/kmssss56"><img src="http://img.shields.io/badge/kmssss56-green?style=social&logo=github"/></a> | <a href="https://github.com/jang1224"><img src="http://img.shields.io/badge/jang1224-green?style=social&logo=github"/></a> | <a href="https://github.com/cha112-31"><img src="http://img.shields.io/badge/cha112-31-green?style=social&logo=github"/></a> | <a href="https://github.com/ssambbaam"><img src="http://img.shields.io/badge/ssambbaam-green?style=social&logo=github"/></a> |
 
