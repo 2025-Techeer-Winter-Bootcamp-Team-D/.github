@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/your_repo">
-    ![온보딩 애니메이션](https://github.com/user-attachments/assets/7b6e23e9-878e-419e-87cb-8388bbf3426b)
+    https://github.com/user-attachments/assets/7b6e23e9-878e-419e-87cb-8388bbf3426b
   </a>
 </p>
 
