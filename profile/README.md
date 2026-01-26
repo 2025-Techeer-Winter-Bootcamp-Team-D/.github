@@ -1,4 +1,4 @@
-<img width="1534" height="752" alt="image" src="https://github.com/user-attachments/assets/b07db929-0e8d-476d-b196-bb38a2cc7633" /><p align="center">
+<p align="center">
   <a href="https://github.com/your_repo">
     <img src="로고_이미지_URL" width="900" style="height:auto;" />
   </a>
