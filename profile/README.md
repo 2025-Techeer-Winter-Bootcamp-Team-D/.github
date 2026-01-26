@@ -1,4 +1,4 @@
-<p align="center">
+<img width="1534" height="752" alt="image" src="https://github.com/user-attachments/assets/b07db929-0e8d-476d-b196-bb38a2cc7633" /><p align="center">
   <a href="https://github.com/your_repo">
     <img src="로고_이미지_URL" width="900" style="height:auto;" />
   </a>
@@ -20,7 +20,7 @@
 실시간 주가 데이터, 기업 공시, 뉴스를 통합 분석하는 금융 정보 플랫폼입니다.
 
 ### URL
-<blockquote>https://your-service-url.com</blockquote>
+<blockquote>https://quasa.info</blockquote>
 
 ### Repositories
 | Repository | Description |
@@ -165,8 +165,8 @@
 # 🚀 How to Start
 #### 1. Clone The Repository
 ```bash
-git clone https://github.com/your-org/Backend.git
-git clone https://github.com/your-org/Frontend.git
+git clone https://github.com/2025-Techeer-Winter-Bootcamp-Team-D/backend.git
+git clone https://github.com/2025-Techeer-Winter-Bootcamp-Team-D/frontend.git
 ```
 
 #### 2. Backend ENV Setting
