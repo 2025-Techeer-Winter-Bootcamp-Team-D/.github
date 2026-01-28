@@ -35,7 +35,7 @@
 <br><br>
 
 ### 산업 페이지
-
+![산업](https://github.com/user-attachments/assets/6874e43d-b799-4d6c-9d85-8fcec46b8fed)
 <br><br>
 
 ### 기업 비교 페이지
