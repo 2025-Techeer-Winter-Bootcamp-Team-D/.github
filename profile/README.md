@@ -1,3 +1,4 @@
+![온보딩](https://github.com/user-attachments/assets/fd19efad-4906-4f5e-9cbc-58886b7aaacf)
 # 📚 Contents List
 - [Introduction](#-introduction)
 - [Demo](#-demo)
@@ -25,11 +26,11 @@
 
 # 🎬 Demo
 ### 메인페이지
-
+![메인페이지](https://github.com/user-attachments/assets/2004b5f8-a6d2-4df7-8803-487e5a6f9bac)
 <br><br>
 
-### 기업 검색 & 기업 상세 페이지
-
+### 기업 상세 페이지
+![기업 상세](https://github.com/user-attachments/assets/bdbd36f7-f6b6-4448-9657-c4399178a58c)
 <br><br>
 
 ### 산업 페이지
@@ -37,7 +38,7 @@
 <br><br>
 
 ### 기업 비교 페이지
-
+![기업 비교](https://github.com/user-attachments/assets/2e07fdb2-f359-4193-bb1f-76a43109ee72)
 <br><br>
 
 # 🛠️ System Architecture
