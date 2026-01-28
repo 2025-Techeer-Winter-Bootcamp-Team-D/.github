@@ -1,4 +1,5 @@
-![온보딩](https://github.com/user-attachments/assets/fd19efad-4906-4f5e-9cbc-58886b7aaacf)
+![온보딩](https://github.com/user-attachments/assets/22a8cd8f-2214-419b-a476-7f357a4dfce5)
+
 # 📚 Contents List
 - [Introduction](#-introduction)
 - [Demo](#-demo)
